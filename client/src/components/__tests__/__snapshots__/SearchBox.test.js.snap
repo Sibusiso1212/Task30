@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchBox Component matches snapshot 1`] = `
+<div>
+  <div
+    class="search-container"
+  >
+    <form>
+      <input
+        minlength="1"
+        placeholder="Search GitHub users..."
+        required=""
+        type="text"
+        value=""
+      />
+      <button
+        type="submit"
+      >
+        Search
+      </button>
+    </form>
+    <div
+      class="results"
+    />
+  </div>
+</div>
+`;

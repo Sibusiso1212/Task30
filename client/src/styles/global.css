@@ -1,0 +1,17 @@
+:root {
+  --primary-color: #2d333b;
+  --secondary-color: #22c55e;
+  --accent-color: #7c3aed;
+  --background-color: #f8fafc;
+  --text-primary: #1e293b;
+  --text-secondary: #64748b;
+  --card-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+}
+
+body {
+  background-color: var(--background-color);
+  font-family: 'Inter', -apple-system, sans-serif;
+  color: var(--text-primary);
+  margin: 0;
+  padding: 0;
+}

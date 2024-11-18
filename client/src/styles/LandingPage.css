@@ -1,0 +1,72 @@
+/* Main container styles */
+.landing-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #2d333b 0%, #1a1f24 100%);
+  color: white;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Header section */
+.landing-page header {
+  text-align: center;
+  padding: 2rem 0;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Main title */
+.landing-page h1 {
+  font-size: 3.5rem;
+  margin-bottom: 1.5rem;
+  background: linear-gradient(to right, #22c55e, #7c3aed);
+  /**
+   * Applies a transparent text fill color with a gradient background clip effect.
+   * This creates the appearance of text with a gradient background.
+   */
+  /**
+   * Applies a transparent text fill color with a gradient background clip effect.
+   * This creates the appearance of text with a gradient background.
+   */
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
+/* Subtitle text */
+.landing-page p {
+  font-size: 1.25rem;
+  color: #94a3b8;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+/* Main content area */
+.landing-page main {
+  width: 100%;
+  max-width: 800px;
+  margin: 2rem auto;
+}
+
+/* Footer section */
+.landing-page footer {
+  margin-top: auto;
+  padding: 2rem 0;
+  text-align: center;
+  color: #94a3b8;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .landing-page h1 {
+    font-size: 2.5rem;
+  }
+  
+  .landing-page p {
+    font-size: 1.1rem;
+  }
+}
